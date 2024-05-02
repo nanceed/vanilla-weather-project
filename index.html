@@ -14,26 +14,33 @@
 <body>
     <div class="weather-app">
     <header>
-        <form>
-            <input type="search"placeholder="Enter a city..."required>
-            <input type="submit"value="Search"/>
+        <form class="search-form">
+            <input type="search"placeholder="Enter a city..."required class="search-form-input">
+            <input type="submit"value="Search"class="search-form-button"/>
         </form>
     </header>
-    <div>
+    
     <main>
-        <h1> San Francisco </h1>
-        <p>
+        <div class="weather-app-data">
+            <div>
+        <h1 class="weather-app-city"> San Francisco </h1>
+        <p class="weather-app-details">
             Wednesday 19:56, overcast clouds
             <br />
-            Humidity: 94%, Wind: 3.09km/h
+            Humidity: <strong>94%</strong>, Wind: <strong>3.09km/h</strong>
         </p>
         </div>
-        <div>⛅12°C</div>
+        <div class="weather-app-temperature-container">
+            <div class="weather-app-icon">⛅</div>
+            <div class="weather-app-temperature">12</div>
+            <div class="weather-app-unit">°C</div>
+        </div>
+        </div>
     </main>
 <footer> This project was coded by 
     <a href="https://github.com/nanceed" target="_blank">Nancy Duong,</a>
 and is open-sourced on <a href="https://github.com/nanceed/Vanilla-Weather-Project" target="_blank">GitHub</a>
-and hosted by <a href="https://wonderful-weather-project.netlify.app/" target="_blank">Netlify</a>
+and hosted on <a href="https://wonderful-weather-project.netlify.app/" target="_blank">Netlify</a>
 </footer>
     </div>
 </body>
