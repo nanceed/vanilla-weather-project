@@ -137,3 +137,45 @@ footer {
    font-size: 13px;
    color:rgba(0, 0, 0, 0.6);
 } 
+
+@media (max-width: 800px) {
+    .weather-app-city {
+        font-size: 25px;
+        line-height: 32px;
+    }
+
+    .weather-app-details {
+        font-size: 14px;
+        line-height: 22px;
+    }
+
+    .weather-app-temperature {
+        font-size: 41px;
+        line-height: 62px;
+    }
+
+    .weather-app-icon {
+        margin-top: -11px;
+    }
+
+    .weather-forecast-icon {
+        width: 73px;
+        height: 72px;
+    }
+
+    .weather-forecast-temperature {
+        font-size: 14px;
+    }
+
+    .search-form-button {
+        padding: 10px 8px;
+        font-size: 13px;
+        margin-left: -2px;
+    }
+
+    .search-form-input {
+        width: 81%;
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
