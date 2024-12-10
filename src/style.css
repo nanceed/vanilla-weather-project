@@ -140,13 +140,13 @@ footer {
 
 @media (max-width: 800px) {
     .weather-app-city {
-        font-size: 25px;
-        line-height: 32px;
+        font-size: 20.5px;
+        line-height: 31px;
     }
 
     .weather-app-details {
-        font-size: 14px;
-        line-height: 22px;
+        font-size: 13.5px;
+        line-height: 20px;
     }
 
     .weather-app-temperature {
@@ -155,27 +155,32 @@ footer {
     }
 
     .weather-app-icon {
-        margin-top: -11px;
+        width: 60px;
+        height: 78px;
+    }
+
+    .weather-app-unit {
+        font-size: 19px;
+        margin-top: 10px;
     }
 
     .weather-forecast-icon {
-        width: 73px;
+        width: 68px;
         height: 72px;
     }
 
     .weather-forecast-temperature {
-        font-size: 14px;
+        font-size: 12px;
     }
 
     .search-form-button {
         padding: 10px 8px;
-        font-size: 13px;
-        margin-left: -2px;
+        font-size: 12px;
     }
 
     .search-form-input {
-        width: 81%;
+        width: 77%;
         padding: 10px 20px;
-        font-size: 16px;
+        font-size: 13.5px;
     }
 }
